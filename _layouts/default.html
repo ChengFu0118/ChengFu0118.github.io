@@ -1,57 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+layout: compress
+---
 
-{% include head.html %}
+{% include base_path %}
 
-<body>
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-  <header class="site-header">
-    <div class="container">
-      {% include site-nav.html %}
+  <body>
 
-      {% if paginator %}
-        <h1 class="site-title">
-          <a href="{{ site.baseurl }}/">{{ site.title | xml_escape }}</a>
-        </h1>
-      {% else %}
-        <div class="site-title">
-          <a href="{{ site.baseurl }}/">{{ site.title | xml_escape }}</a>
-        </div>
-      {% endif %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-      {% if site.tagline and paginator %}
-        <div class="site-tagline">
-          {{ site.tagline }}
-        </div>
-      {% endif %}
-    </div>
-  </header>
-
-  <main class="container">
     {{ content }}
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      {% include footer-links.html %}
-      © {{ site.time | date: "%Y" }} {{ site.title | xml_escape }}
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
-  </footer>
 
-  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
-  <script>
-    (function ($) {
-      var $siteNav = $('.site-nav');
-      var $siteNavToggle = $('.site-nav-toggle');
+    {% include scripts.html %}
 
-      $siteNavToggle.click(function () {
-        $siteNav.toggleClass('is-toggled');
-      });
-
-      $('.post-content').fitVids();
-    }(jQuery));
-  </script>
-
-</body>
+  </body>
 </html>
