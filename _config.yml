@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Main Page"
+title                    : "Main page"
 title_separator          : "-"
 name                     : &name "Cheng Fu"
 description              : &description "Hi, I am a first year PhD student at UC San Diego. This page is still under construction."
