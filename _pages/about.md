@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cheng Fu personal websites"
+<!-- title: "Cheng Fu personal websites" -->
 excerpt: "About me"
 author_profile: true
 redirect_from: 
