@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="http://www.websiteaddress.com/documents/filename.pdf"> [Link to my CV]</a>
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
