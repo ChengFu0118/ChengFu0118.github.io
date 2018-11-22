@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://github.com/ChengFu0118/ChengFu0118.github.io/blob/master/files/ChengFu_11_22.pdf"> [Link to my CV]</a>
+<a href="http://www.websiteaddress.com/documents/filename.pdf"> [Link to my CV]</a>
 
