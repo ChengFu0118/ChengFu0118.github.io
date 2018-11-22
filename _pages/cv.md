@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="http://www.websiteaddress.com/documents/filename.pdf"> [Link to my CV]</a>
+<!-- <a href="http://www.websiteaddress.com/documents/filename.pdf"> [Link to my CV]</a> -->
 
 <!-- Education
 ======
