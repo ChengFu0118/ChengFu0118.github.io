@@ -25,9 +25,9 @@ Research Interest
 
 Education
 ======
+* Ph.D University of California, San Diego, 2018 - to present
+* M.S. University of Michigan, Ann arbor, 2016 - 2018
 * B.S. Beijing Institute of Technology, Beijing, 2012 - 2016
-* M.S. University of Michigan, Ann arbor, 2016-2018
-* Ph.D University of San Diego, 2018 - to present
 
 Work experience
 ======
