@@ -1,15 +1,15 @@
 ---
-title: "FPGA High-level Synthesis versus Overlay"
+title: "A programmable Galois Field processor for the Internet of Things"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-4
-excerpt: 'Y. Lin, Z. Jiang, <Strong>C. Fu</Strong>, H. K.H. So, and H. Yang
+permalink: /publication/2010-10-01-paper-title-number-2
+excerpt: 'Yajing Chen, Shengshuo Lu, <Strong>Cheng Fu</Strong>, David Blaauw, Ronald Dreslinski Jr, Trevor Mudge, and Hun-Seok Kim'
 date: 2010-10-01
-venue: 'FPGA 2019 (abstract only)'
+venue: 'ISCA 2019'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
-[Download paper here](https://arxiv.org/abs/1810.02068)
+[Download paper here](https://chengfu0118.github.io/files/ISCA17-GaloisField.pdf)
 
 <!-- Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2). -->
