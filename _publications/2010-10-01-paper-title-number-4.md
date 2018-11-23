@@ -1,7 +1,7 @@
 ---
 title: "Towards Fast and Energy-Efficient Binarized Neural Network Inference on FPGA"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-4
 excerpt: 'Cheng Fu, Shilin Zhu, Hao Su, Ching-En Lee, Jishen Zhao'
 date: 2010-10-01
 venue: 'FPGA 2019 (abstract only)'

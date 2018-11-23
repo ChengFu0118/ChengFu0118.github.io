@@ -1,7 +1,7 @@
 ---
 title: "FPGA High-level Synthesis versus Overlay: Comparisons on Computation Kernels"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-1
 excerpt: 'Y. Lin, Z. Jiang, C. Fu, H. K.H. So, and H. Yang'
 date: 2010-10-01
 venue: 'Int'l Symp. on Highly-Efficient Accelerator and Reconfigurable Technologies (HEART), 2017.'
