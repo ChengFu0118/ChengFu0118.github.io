@@ -1,5 +1,5 @@
 ---
-title: "A programmable Galois Field processor for the Internet of Things"
+title: "A Programmable Galois Field Processor for the Internet of Things"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-3
 excerpt: 'Yajing Chen, Shengshuo Lu, <Strong>Cheng Fu</Strong>, David Blaauw, Ronald Dreslinski Jr, Trevor Mudge, and Hun-Seok Kim'
