@@ -34,3 +34,7 @@ Work experience
 * Summer 2018: Research Intern
   * Iluvatar CoreX, San Jose
   * Supervisor: [Ching-En Lee](https://www.lchingen.com/)
+
+
+
+Visitor Counts:   <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3227999&c=9684310" alt="AmazingCounters.com"></a></div>
