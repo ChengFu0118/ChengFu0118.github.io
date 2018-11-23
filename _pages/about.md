@@ -33,4 +33,4 @@ Work experience
 ======
 * Summer 2018: Research Intern
   * Iluvatar CoreX, San Jose
-  * Supervisor: [Ching-Enn Lee](https://www.lchingen.com/)
+  * Supervisor: [Ching-En Lee](https://www.lchingen.com/)
