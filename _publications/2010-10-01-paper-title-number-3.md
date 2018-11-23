@@ -2,7 +2,7 @@
 title: "Artificial neural network algorithms for pulse shape discrimination and recovery of piled-up pulses in organic scintillators"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'TC. Fu, A. Di Fulvio, S.D. Clarke, D. Wentzloff, S.A. Pozzi, H.S. Kim'
+excerpt: 'C. Fu, A. Di Fulvio, S.D. Clarke, D. Wentzloff, S.A. Pozzi, H.S. Kim'
 date: 2010-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
