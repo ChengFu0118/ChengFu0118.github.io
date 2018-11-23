@@ -1,5 +1,5 @@
 ---
-title: "A programmable Galois Field processor for the Internet of Things"
+title: "FPGA High-level Synthesis versus Overlay: Comparisons on Computation Kernels"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Yajing Chen, Shengshuo Lu, <Strong>Cheng Fu</Strong>, David Blaauw, Ronald Dreslinski Jr, Trevor Mudge, and Hun-Seok Kim'
