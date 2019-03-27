@@ -1,8 +1,8 @@
 ---
 title: "DeepAttest: An End-to-End Attestation Framework for Deep Neural Networks"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-5
-excerpt: '<Strong>Cheng Fu</Strong>, Shilin Zhu, Hao Su, Ching-En Lee, Jishen Zhao'
+permalink: /publication/2010-10-01-paper-title-number-6
+excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Bita Darvish Rouhani, Jishen Zhao, Farinaz Koushanfar'
 date: 2010-10-01
 venue: 'In the Proceedings of the 46th International Symposium on Computer Architecture (ISCA), 2019'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
