@@ -1,7 +1,7 @@
 ---
 title: "A Programmable Galois Field Processor for the Internet of Things"
 collection: publications
-permalink: /publication/paper-number-3
+<!-- permalink: /publication/paper-number-3 -->
 excerpt: 'Yajing Chen, Shengshuo Lu, <Strong>Cheng Fu</Strong>, David Blaauw, Ronald Dreslinski Jr, Trevor Mudge, and Hun-Seok Kim'
 date: 2010-10-01
 venue: 'In the Proceedings of the 44th International Symposium on Computer Architecture (ISCA), 2017'
