@@ -3,7 +3,7 @@ title: "DeepMarks: A Secure Fingerprinting Framework for Digital Rights Manageme
 collection: publications
 permalink: /publication/paper-number-6
 excerpt: 'Huili Chen, Bita Darvish Rouhani, <Strong>Cheng Fu</Strong>, Jishen Zhao, Farinaz Koushanfar'
-venue: 'ACM International Conference on Multimedia Retrieval (ICMR): ACM, 2019.'
+venue: 'ACM International Conference on Multimedia Retrieval (ICMR), 2019.'
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
