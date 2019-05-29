@@ -10,6 +10,6 @@ venue: 'Highly-Efficient Accelerator and Reconfigurable Technologies (HEART), 20
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
-[Download paper here](https://chengfu0118.github.io/files/HEART2016.pdf)
+<!-- [Download paper here](https://chengfu0118.github.io/files/HEART2016.pdf) -->
 
 <!-- Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2). -->
