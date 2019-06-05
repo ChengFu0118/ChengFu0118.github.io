@@ -83,10 +83,9 @@ author:
   name             : "Cheng Fu"
   avatar           : "hqdefault.jpg"
   # bio              : "Hi, I am a first year PhD student at UC San Diego from CSE department."
-  location         : "EBU3B, #3256, La Jolla, CA"
+  location         : "EBU3B 3256, La Jolla, CA"
   employer         :
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "cfu@ucsd.edu"
+  email            : "cfu@eng.ucsd.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,6 +94,7 @@ author:
   facebook         :
   foursquare       :
   github           : "ChengFu0118"
+  googlescholar    : "https://scholar.google.com/citations?user=hLM_G9UAAAAJ&hl=en&oi=ao"  
   google_plus      :
   keybase          :
   instagram        :
@@ -108,7 +108,7 @@ author:
   tumblr           :
   # twitter          : "replacethistwitterhandle"
   vine             :
-  weibo            :
+  weibo            : 
   xing             :
   youtube          :
   wikipedia        :
