@@ -9,5 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="http://chengfu0118.github.io/files/ChengFu_11_22.pdf"> [Link to my CV]</a>
+Please contact me via email for CV.
+<!-- <a href="http://chengfu0118.github.io/files/ChengFu_11_22.pdf"> [Link to my CV]</a> -->
 
