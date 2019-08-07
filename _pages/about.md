@@ -12,15 +12,17 @@ redirect_from:
 
 Hi, I am a first year PhD student at University of California, San Diego (UCSD). My advisor is [Prof. Jishen Zhao](http://cseweb.ucsd.edu/~jzhao/). My primary research interest is domain-specific hardware acceleration. I received my Master Degree in University of Michigan, Ann Arbor, advised by [Prof. Hun-Seok Kim](https://kim.engin.umich.edu/) and my bachelor’s degree from Beijing Institute of Technology.
 
-I did a research intern this summer at [Iluvatar CoreX](https://www.linkedin.com/company/iluvatar-corex-inc/), a start-up company at San Jose, while I designed and tested a Binarized Neural Network Accelerator on FPGA. 
+Last summer, I was interned at [Iluvatar CoreX](https://www.linkedin.com/company/iluvatar-corex-inc/), a start-up company at San Jose, while I designed and tested a Binarized Neural Network Accelerator on FPGA. I am currently doing my internship at Facebook AI Research (FAIR).
+<!-- This website is still under construction. -->
 
-This website is still under construction.
+Please feel free to contact me via email. 
 
-Please feel free to contact me via email.
 
 Research Interest 
 ======
-* Hardware acceleration and security for deep neural network
+My research lies at the intersection of:
+* Efficient hardware accelerator design
+* Deep Learning
 * Computer architecture 
 
 Education
@@ -33,6 +35,7 @@ Work experience
 ======
 * Summer 2018: Research Intern
   * Iluvatar CoreX, San Jose
-  * Supervisor: [Ching-En Lee](https://www.lchingen.com/)
+* Summer 2019: External Research Collaborator
+  * Facebook AI research, Menlo Park  
 
 
