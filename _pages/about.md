@@ -21,9 +21,9 @@ Please feel free to contact me via email.
 Research Interest 
 ======
 My research lies at the intersection of:
-* Efficient hardware accelerator design
-* Deep Learning
-* Computer architecture 
+* Efficient hardware acceleration
+* Machine Learning
+* Computer architecture
 
 Education
 ======
