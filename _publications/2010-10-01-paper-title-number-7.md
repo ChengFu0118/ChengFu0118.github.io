@@ -1,7 +1,7 @@
 ---
 title: "DeepAttest: An End-to-End Attestation Framework for Deep Neural Networks"
 collection: publications
-permalink: /publication/
+<!-- permalink: /publication/paper-number-7 -->
 excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Bita Darvish Rouhani, Jishen Zhao, Farinaz Koushanfar'
 venue: 'International Symposium on Computer Architecture (ISCA), 2019'
 ---
