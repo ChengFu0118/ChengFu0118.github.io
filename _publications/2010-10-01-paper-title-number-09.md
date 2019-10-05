@@ -3,7 +3,7 @@ title: "GenUnlock: An Automated Genetic Algorithm Framework for Unlocking Logic 
 collection: publications
 permalink: /publication/paper-number-9
 excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Jishen Zhao, Farinaz Koushanfar'
-venue: 'International Conference On Computer Aided Design (ICCAD), 2019'
+venue: 'International Conference on Computer Aided Design (ICCAD), 2019'
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
