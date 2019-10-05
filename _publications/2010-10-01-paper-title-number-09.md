@@ -1,9 +1,9 @@
 ---
-title: "DeepInspect: A Black-box Trojan Detection and Mitigation Framework for Deep Neural Networks"
+title: "GenUnlock: An Automated Genetic Algorithm Framework for Unlocking Logic Encryption"
 collection: publications
 permalink: /publication/paper-number-9
 excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Jishen Zhao, Farinaz Koushanfar'
-venue: 'International Joint Conferences on Artificial Intelligence (IJCAI), 2019'
+venue: 'International Conference On Computer Aided Design (ICCAD), 2019'
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
