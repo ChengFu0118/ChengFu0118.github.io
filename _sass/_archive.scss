@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -33,7 +33,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.2em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -102,7 +102,7 @@
    ========================================================================== */
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   .page__meta {
     margin: 0 0 4px;
