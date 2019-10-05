@@ -1,7 +1,7 @@
 ---
 title: "DeepInspect: A Black-box Trojan Detection and Mitigation Framework for Deep Neural Networks"
 collection: publications
-permalink: /publication/paper-number-8
+permalink: /publication/
 excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Jishen Zhao, Farinaz Koushanfar'
 venue: 'International Joint Conferences on Artificial Intelligence (IJCAI), 2019'
 ---
