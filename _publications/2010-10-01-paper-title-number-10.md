@@ -1,9 +1,9 @@
 ---
-title: "Coda: An End-to-End Neural Program Decompiler"
+title: "DeepInspect: A Black-box Trojan Detection and Mitigation Framework for Deep Neural Networks"
 collection: publications
-permalink: /publication/paper-number-10
-excerpt: '<strong>Cheng Fu</strong>, Huili Chen, Haolan Liu, Xinyun Chen, Yuandong Tian, Farinaz Koushanfar, and Jishen Zhao'
-venue: In the Proceedings of Thirty-third Conference on Neural Information Processing System (NeurIPS), 2019'
+permalink: /publication/paper-number-8
+excerpt: 'Huili Chen, <Strong>Cheng Fu</Strong>, Jishen Zhao, Farinaz Koushanfar'
+venue: 'International Joint Conferences on Artificial Intelligence (IJCAI), 2019'
 ---
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
