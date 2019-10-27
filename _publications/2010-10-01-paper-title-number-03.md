@@ -11,6 +11,6 @@ citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 
 <!-- This paper is about the number 2. The number 3 is left for future work.
  -->
 <!-- [Download paper here](https://chengfu0118.github.io/files/ISCA17-GaloisField.pdf) -->
-[Download paper here](https://ieeexplore.ieee.org/document/8192501)
+[Download paper here](https://dl.acm.org/citation.cfm?id=3080227)
 
 <!-- Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2). -->
