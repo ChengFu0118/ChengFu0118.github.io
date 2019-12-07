@@ -1,15 +1,1 @@
----
-title: "FPGA High-level Synthesis versus Overlay: Comparisons on Computation Kernels"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Y. Lin, Z. Jiang, <Strong>C. Fu</Strong>, H. K.H. So, and H. Yang'
-date: 2010-10-01
-venue: 'Highly-Efficient Accelerator and Reconfigurable Technologies (HEART), 2017'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
----
-<!-- This paper is about the number 2. The number 3 is left for future work.
- -->
-[Download paper here](https://dl.acm.org/citation.cfm?id=3039919)
-
-<!-- Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2). -->
+Neural architecture search (NAS) has fostered computing-hardware-friendly neural network architectures. Unfortunately, most existing hardware-aware NAS techniques, e.g.FBNet [35], ProxylessNAS [5], MnasNet [32], only target to reduce the inference latency on single CPU/GPU systems. Such designs can hardly be parallelized across multiple hardware devices. We identify that traditional chain-like and cell-structured search spaces incur severe data communication and synchronization overhead, when a model is deployed on multi-device platforms. To address this issue, we propose ColocNAS, the first synchronization-aware, end-to-end NAS framework, which automates the design of parallelizable neural networks for various homogeneous and heterogeneous computation platforms. Our goal is to both maximize computation device utilization and maintain a high task accuracy. To this end, ColocNAS defines a new search space with elaborated connectivity to reduce the device communication and synchronization. ColocNAS consists of three main phases: (i) Offline latency profiling: We construct a lookup table of inference latency of various network architectures by running them on the target platform. Thus, the latency of an unseen network can be estimated from the lookup table using k Nearest Neighbour  kNN) in the later online searching step. (ii) Differentiable latency-aware NAS: ColocNAS formulates architecture search as a bi-level optimization problem, whic aims at minimizing inference latency and test error rate. (iii) Reinforcement learning (RL)-based device placement fine-tuning: After the model is searched, ColocNAS finetunes the device placement policy using RL to further reduce the inference latency. Experimental results on CIFAR-10 and ImageNet demonstrate ColocNAS’s superior performance in terms of runtime latency and task accuracy.
