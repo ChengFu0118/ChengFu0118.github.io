@@ -18,8 +18,9 @@ Please feel free to contact me via email.
 Research Interest 
 ======
 I am currently working on the following topics:
+* Machine Learning for Binary Analysis
 * Hardware and software co-design for efficient machine learning algorithms
-* Machine learning for system and architecture
+* Machine learning for system and architecture, AutoML
 * Domain-specific hardware acceleration
 
 
