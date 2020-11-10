@@ -6,4 +6,4 @@ excerpt: '<strong>Cheng Fu</strong>, Huili Chen, Zhenheng Yang, Farinaz Koushanf
 venue: 'in IEEE Micro, 2020'
 ---
 
-<a href="https://ieeexplore.ieee.org/abstract/document/9127125"> [Slides]</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/9127125"> [paper]</a>
