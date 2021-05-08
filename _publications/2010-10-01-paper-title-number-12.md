@@ -5,5 +5,3 @@ permalink: /publication/paper-number-12
 excerpt: '<strong>Cheng Fu</strong>, Hanxian Huang, Xinyun Chen, Yuandong Tian, Jishen Zhao'
 venue: 'International Conference on Machine Learning (ICML), 2021. (long talk)'
 ---
-
-<a href="https://ieeexplore.ieee.org/abstract/document/9127125"> [paper]</a>
