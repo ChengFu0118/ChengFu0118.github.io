@@ -1,9 +1,9 @@
 ---
-title: "Enhancing Model Parallelism in Neural Architecture Search for Multidevice System"
+title: "Learn-to-Share: A Hardware-friendly Transfer Learning Framework Exploiting Computation and Parameter Sharing"
 collection: publications
-permalink: /publication/paper-number-11
-excerpt: '<strong>Cheng Fu</strong>, Huili Chen, Zhenheng Yang, Farinaz Koushanfar, Yuandong Tian, Jishen Zhao'
-venue: 'In IEEE Micro, 2020'
+permalink: /publication/paper-number-12
+excerpt: '<strong>Cheng Fu</strong>, Hanxian Huang, Xinyun Chen, Yuandong Tian, Jishen Zhao'
+venue: 'International Conference on Machine Learning (ICML), 2021. (long talk)'
 ---
 
 <a href="https://ieeexplore.ieee.org/abstract/document/9127125"> [paper]</a>
