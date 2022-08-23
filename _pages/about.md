@@ -11,7 +11,7 @@ redirect_from:
 Hi, I am a 4th year PhD student in [Computer Science](https://cse.ucsd.edu/) at the University of California, San Diego (UCSD). My advisor is [Prof. Jishen Zhao](http://cseweb.ucsd.edu/~jzhao/). My research lies at the intersection of machine learning, computer architecture, and security. I received my Master Degree in University of Michigan, Ann Arbor, advised by [Prof. Hun-Seok Kim](https://kim.engin.umich.edu/). 
 I have interned two times at Facebook AI Research (FAIR), supervised by [Yuandong Tian](http://yuandong-tian.com/) and [Prof. Hugh Leather](https://homepages.inf.ed.ac.uk/hleather/). For this year, I will spend my summer at Google as a research intern. 
 
-Please feel free to contact me via email. 
+<b>Seeking full-time jobs start in Summer 2023.</b> Feel free to contact me via email. 
 
 
 Research Interest 
