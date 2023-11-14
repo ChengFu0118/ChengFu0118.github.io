@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cheng Fu @ UC San Diego"
+title: "Cheng Fu"
 excerpt: "Cheng Fu Homepage"
 author_profile: true
 redirect_from: 
