@@ -83,9 +83,9 @@ author:
   name             : "Cheng Fu"
   avatar           : "hq.JPG"
   # bio              : "Hi, I am a first year PhD student at UC San Diego from CSE department."
-  location         : "EBU3B 3256, La Jolla, CA"
+  location         :
   employer         :
-  email            : "cfu@eng.ucsd.edu"
+  email            : "cfu@ucsd.edu"
   uri              :
   bitbucket        :
   codepen          :

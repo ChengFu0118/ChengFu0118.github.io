@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-About Me 
-======
 Hi, I am a software engineer working at Google. My job is to make LLMs (e.g. Gemini, Bard) run more efficiently on ML system (TPUs).  
 
 Before joining Google, I received my PhD in [Computer Science](https://cse.ucsd.edu/) at the University of California, San Diego (UCSD). My advisor is [Prof. Jishen Zhao](http://cseweb.ucsd.edu/~jzhao/). My research lies at the intersection of machine learning (ML), computer architecture, and security. I received my Master Degree in University of Michigan, Ann Arbor, advised by [Prof. Hun-Seok Kim](https://kim.engin.umich.edu/). 
