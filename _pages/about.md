@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cheng Fu's Homepage (傅 成）"
+title: "Cheng Fu (傅 成）"
 excerpt: "Cheng Fu Homepage"
 author_profile: true
 redirect_from: 
