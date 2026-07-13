@@ -1,0 +1,19 @@
+# Jekyll build output & caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby/Bundler (anchored to repo root so _sass/vendor/ theme SCSS is NOT ignored)
+/vendor/
+/.bundle/
+# Gemfile.lock is committed so the GitHub Actions build uses pinned, reproducible gems
+
+# Node
+node_modules/
+
+# Local preview override
+_config.preview.yml
+
+# OS cruft
+.DS_Store

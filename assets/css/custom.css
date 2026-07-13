@@ -1,0 +1,444 @@
+/* ==========================================================================
+   Custom formatting overlay for ChengFu0118.github.io
+   Loaded AFTER the theme's compiled main.css (see _includes/head/custom.html).
+   Goal: a modern refresh of the academicpages theme (typography, accent,
+   section headers, profile sidebar, sticky nav, publication cards) plus an
+   automatic dark mode. The theme's SCSS is left untouched.
+   ========================================================================== */
+
+/* ------- Design tokens -------------------------------------------------- */
+:root {
+  --accent:        #2a6fdb;
+  --accent-hover:  #1b52ab;
+  --accent-soft:   rgba(42, 111, 219, 0.10);
+
+  --text:          #24292f;
+  --text-muted:    #57606a;
+  --heading:       #1c2128;
+
+  --bg:            #ffffff;
+  --surface:       #f6f8fa;
+  --border:        #e4e7ec;
+  --code-bg:       #f6f8fa;
+
+  --masthead-bg:   rgba(255, 255, 255, 0.85);
+  --shadow:        0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-lg:     0 6px 20px rgba(0, 0, 0, 0.10);
+  --radius:        10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent:       #6ea8ff;
+    --accent-hover: #9cc3ff;
+    --accent-soft:  rgba(110, 168, 255, 0.14);
+
+    --text:         #e6edf3;
+    --text-muted:   #9aa4b2;
+    --heading:      #f0f4f8;
+
+    --bg:           #0d1117;
+    --surface:      #161b22;
+    --border:       #2a313c;
+    --code-bg:      #161b22;
+
+    --masthead-bg:  rgba(13, 17, 23, 0.85);
+    --shadow:       0 1px 3px rgba(0, 0, 0, 0.45);
+    --shadow-lg:    0 8px 24px rgba(0, 0, 0, 0.55);
+
+    /* Re-point the upstream theme's own skin variables so ITS surfaces
+       (masthead, nav, footer, borders, tables, links) follow dark mode too —
+       its dark skin is otherwise gated behind the manual toggle we hide. */
+    --global-bg-color: #0d1117;
+    --global-footer-bg-color: #161b22;
+    --global-text-color: #e6edf3;
+    --global-text-color-light: #9aa4b2;
+    --global-border-color: #2a313c;
+    --global-dark-border-color: #2a313c;
+    --global-code-background-color: #161b22;
+    --global-code-text-color: #e6edf3;
+    --global-thead-color: #161b22;
+    --global-fig-caption-color: #9aa4b2;
+    --global-base-color: #6ea8ff;
+    --global-link-color: #6ea8ff;
+    --global-link-color-hover: #9cc3ff;
+    --global-link-color-visited: #9cc3ff;
+    --global-masthead-link-color: #e6edf3;
+    --global-masthead-link-color-hover: #6ea8ff;
+  }
+
+  /* The theme colours social icons with brand colours (e.g. GitHub near-black),
+     which disappear on a dark background — force them to a visible tone. */
+  .author__urls .fa,
+  .author__urls .ai { color: var(--text-muted); }
+  .author__urls a:hover .fa,
+  .author__urls a:hover .ai { color: var(--accent); }
+}
+
+/* ------- Base ----------------------------------------------------------- */
+html { scroll-behavior: smooth; }
+
+html,
+body {
+  background-color: var(--bg);
+}
+
+body {
+  color: var(--text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent-soft); }
+
+/* Comfortable paragraph rhythm (theme ships p { margin-bottom: 0.2em }) */
+.page__content p,
+.page__content ul,
+.page__content ol {
+  margin-bottom: 1em;
+}
+.page__content li { margin-bottom: 0.35em; }
+
+/* Links */
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+
+.page__content a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.page__content a:hover { border-bottom-color: currentColor; }
+
+/* The theme wraps some links in <u>/<ins> and underlines them with the text
+   colour, which nearly vanishes in dark mode. Recolour to the accent. */
+.page__content u,
+.page__content ins { border-bottom-color: var(--accent); }
+.page__content u a,
+.page__content ins a { color: var(--accent); }
+
+hr { border-top-color: var(--border); }
+
+blockquote {
+  border-left-color: var(--accent);
+  color: var(--text-muted);
+}
+
+/* Inline code + code blocks */
+.page__content p > code,
+.page__content a > code,
+.page__content li > code,
+.page__content figcaption > code,
+.page__content td > code {
+  background: var(--code-bg);
+  border-color: var(--border);
+  color: var(--text);
+}
+.page__content pre,
+.page__content .highlight,
+figure.highlight,
+div.highlighter-rouge {
+  background: var(--code-bg);
+  border-radius: var(--radius);
+}
+
+/* Tables */
+.page__content table { border-color: var(--border); }
+.page__content td,
+.page__content th { border-color: var(--border); }
+.page__content thead { background: var(--surface); }
+.page__content tr:nth-child(even) { background: var(--surface); }
+
+/* ------- Headings ------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { color: var(--heading); }
+
+.page__title {
+  font-size: 2.35em;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  margin-bottom: 0.1em;
+}
+/* Hero spacing on the article header (name + intro read as one block) */
+.page__inner-wrap > header { margin-bottom: 0.5em; }
+
+/* Section headers on the About page ("Research Interest", "Work experiences").
+   Markdown "text\n======" is a setext <h1>, so style content h1 and h2 alike.
+   (The page title lives in .page__title in the <header>, not in .page__content.) */
+.page__content h1,
+.page__content h2 {
+  position: relative;
+  margin-top: 2.2em;
+  margin-bottom: 0.85em;
+  padding-bottom: 0.35em;
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--border);
+}
+.page__content h1::after,
+.page__content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 2.75rem;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+
+.page__content h3 { margin-top: 1.6em; }
+
+/* ------- Masthead / top navigation ------------------------------------- */
+.masthead {
+  /* The theme already sets position:fixed and reserves space via
+     body { padding-top: masthead-height }. Keep that (overriding it to sticky
+     left an empty band above the nav) and just restyle the bar. */
+  z-index: 30;
+  background-color: var(--masthead-bg);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.greedy-nav,
+.masthead__inner-wrap { background: transparent; }
+
+.masthead__menu-item a,
+.greedy-nav .visible-links a {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.masthead__menu-item a:hover,
+.greedy-nav .visible-links a:hover { color: var(--accent); }
+
+.masthead__menu-item--lg a,
+.greedy-nav .visible-links a.site-title {
+  color: var(--heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.greedy-nav .hidden-links { box-shadow: var(--shadow-lg); }
+
+/* The upstream theme adds a manual light/dark toggle (#theme-toggle) whose
+   data-theme system competes with this overlay's automatic dark mode. Hide it
+   so there is one consistent, OS-driven dark experience. */
+#theme-toggle { display: none !important; }
+
+/* ------- Author profile sidebar ---------------------------------------- */
+.sidebar .author__avatar img {
+  padding: 0;
+  object-fit: cover;            /* crop the portrait photo to a true circle */
+  border: 4px solid var(--bg);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--border), var(--shadow-lg);
+}
+@media (min-width: 926px) {
+  .sidebar .author__avatar img { width: 200px; height: 200px; max-width: 100%; }
+}
+@media (max-width: 925px) {
+  .sidebar .author__avatar img { width: 52px; height: 52px; }
+}
+
+.sidebar .author__name {
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--heading);
+  margin-bottom: 0.6em;   /* breathing room between the name and the social links */
+}
+
+.author__bio { color: var(--text-muted); }
+
+/* Hide the dead "Follow" button and always show the links list
+   (theme hides them behind a mobile-only JS dropdown). */
+.author__urls-wrapper button { display: none !important; }
+
+.sidebar .author__urls {
+  display: block !important;
+  position: static !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+.author__urls::before,
+.author__urls::after { display: none !important; }
+
+.author__urls li { margin-bottom: 0.1em; white-space: nowrap; }
+
+.author__urls a {
+  display: inline-block;
+  color: var(--text-muted);
+  border-radius: 6px;
+  padding: 3px 7px;
+  margin-left: -7px;
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+.author__urls a:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+.author__urls i,
+.author__urls .ai { color: var(--text-muted); }
+.author__urls a:hover i,
+.author__urls a:hover .ai { color: var(--accent); }
+
+/* ------- Publications / archive list ----------------------------------- */
+.archive__item {
+  padding: 1.05em 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.archive__item:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.archive__item-title {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.15em;
+  line-height: 1.35;
+}
+.archive__item-title a { color: var(--heading); text-decoration: none; border-bottom: none; }
+.archive__item-title a:hover { color: var(--accent); text-decoration: underline; }
+.archive__item-title .fa-link { color: var(--text-muted); font-size: 0.8em; }
+
+.archive__item p { margin-bottom: 0.25em; }
+.archive__item p i { color: var(--text-muted); }
+.archive__item-excerpt { color: var(--text-muted); }
+
+/* ------- Buttons -------------------------------------------------------- */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+.page__content .btn {
+  background-color: var(--accent);
+  color: #fff;
+  border-bottom: none;
+}
+.page__content .btn:hover { background-color: var(--accent-hover); }
+
+/* ------- Footer --------------------------------------------------------- */
+.page__footer {
+  /* The academicpages base pins the footer with position:fixed (a persistent bar
+     that overlaps content). Anchor it to the bottom of the page instead — the
+     body already reserves space via padding-bottom. */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--surface);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+.page__footer a { color: var(--text-muted); text-decoration: none; }
+.page__footer a:hover { color: var(--accent); }
+.page__footer-copyright { font-size: 0.72em; line-height: 1.6; }
+
+/* ------- Work Experience timeline (Full-time + Internships) ------------- */
+/* Two subsections under "Work Experience" (### Full-time / ### Internships →
+   kramdown ids #full-time / #internships). Each following list renders as a
+   timeline. */
+.page__content #full-time,
+.page__content #internships {
+  margin: 1.4em 0 0.55em;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.page__content #full-time + ul,
+.page__content #internships + ul {
+  list-style: none;
+  margin: 0 0 0.5em;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--border);
+}
+.page__content #full-time + ul > li,
+.page__content #internships + ul > li {
+  position: relative;
+  list-style: none;
+  margin: 0 0 1.25em 0;
+  font-weight: 600;
+}
+.page__content #full-time + ul > li::before,
+.page__content #internships + ul > li::before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: 0.5em;
+  width: 11px;
+  height: 11px;
+  margin-left: -6px;                 /* centre the dot on the 2px rail */
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--bg);
+}
+.page__content #full-time + ul > li > ul,
+.page__content #internships + ul > li > ul {
+  list-style: none;
+  margin: 0.2em 0 0;
+  padding-left: 0;
+}
+.page__content #full-time + ul > li > ul > li,
+.page__content #internships + ul > li > ul > li {
+  margin: 0;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+/* ------- Publication cards: venue chip + fully clickable ---------------- */
+.archive__item-venue { margin: 0.15em 0 0.5em; }
+.archive__item-venue i {
+  display: inline-block;
+  font-style: normal;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.18em 0.7em;
+  border-radius: 999px;
+  line-height: 1.5;
+}
+/* Make the whole publication card clickable (stretched title link), while
+   keeping the citation text above the overlay so it stays selectable.
+   :has() scopes this to items that have a venue chip (= publications). */
+.archive__item:has(.archive__item-venue) { position: relative; }
+.archive__item:has(.archive__item-venue) .archive__item-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.archive__item:has(.archive__item-venue) .archive__item-venue,
+.archive__item:has(.archive__item-venue) .archive__item-excerpt {
+  position: relative;
+  z-index: 2;
+}
+
+/* Hide a publication card that has no venue text — happens when a file's YAML
+   front matter fails to parse (e.g. an unescaped apostrophe). Self-correcting:
+   once the front matter is fixed, the card reappears normally. */
+.archive__item:has(.archive__item-venue i:empty) { display: none; }
+
+/* ------- Small-screen tweaks ------------------------------------------- */
+@media (max-width: 925px) {
+  .author__urls { margin-top: 0.5em; }
+}
